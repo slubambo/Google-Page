@@ -1,0 +1,71 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+.jumbotron, .navbar-default {
+    background: transparent !important;
+    border: none;
+}
+
+.top-menu {
+    margin-top: 5px;
+}
+
+.clear {
+    clear: both;
+    margin-top: 35px;
+}
+
+.down-btns {
+    margin-left: 10px;
+}
+
+.btn-grey {
+    background-color: #f1f1f1 !important;
+    border-color: #edeaea !important;
+    border-radius: 0 !important;
+    color: #75758b;
+    font-weight: 400;
+}
+
+.top-menu button {
+    border-radius: 0 !important;
+    background: #4285f4 !important;
+    border: 1px solid #4285f4 !important;
+}
+
+.search-btn {
+    height: 34px;
+    background: transparent !important;
+    color: #4285f4;
+    border-left: none;
+    border-color: #cbcbcb;
+}
+
+.input-group {
+}
+
+.search-input {
+    border-right: none;
+}
+
+.vertical-center {
+    height: 100%;
+    width: 100%;
+    text-align: center; /* align the inline(-block) elements horizontally */
+    font: 0/0 a; /* remove the gap between inline(-block) elements */
+}
+
+    .vertical-center:before { /* create a full-height inline block pseudo=element */
+        content: " ";
+        display: inline-block;
+        vertical-align: middle; /* vertical alignment of the inline element */
+        height: 100%;
+    }
+
+    .vertical-center > .container {
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle; /* vertical alignment of the inline element */
+        /* reset the font property *
+}
